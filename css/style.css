@@ -1,0 +1,104 @@
+
+.navbar{
+    background-color: #FFF;
+}
+.mobileLogo{
+    display: none;
+}
+body{
+    background-color: #F8F7F3;
+}
+p   {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #6D6C66;
+}
+a   {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Raleway', sans-serif;    
+    color: #6D6C66; 
+    font-size: 20px;
+}
+h5  {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: bold;
+    color: #6D6C66;
+}
+h4  {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 600;
+    color: #6D6C66;
+}
+h1  {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    color: #6D6C66; 
+}
+.bodyText{
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.WhatWeDoCards{
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.cardContainer{
+    margin-bottom: 20px;
+}
+
+.card{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.card-body{
+    padding: 30px;
+}
+
+.imgGrid{
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+}
+
+.image{
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.Contact{
+    padding-left: 100px;
+    margin-top: 30px;
+}
+
+.Social{
+    padding-right: 100px;
+    margin-top: 30px;
+}
+
+@media (max-width: 991px) {
+    .mobileLogo{
+        display: inline;
+    }
+}
+
+@media (max-width: 700px) {
+    .Contact{
+        padding-left: 50px;
+    }
+    
+    .Social{
+        padding-right: 50px;
+    }
+    }
+}
